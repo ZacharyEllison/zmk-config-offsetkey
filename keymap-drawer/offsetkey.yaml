@@ -15,7 +15,7 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - F5
+  - RGB EFF
   - '6'
   - $$mdi:keyboard-tab$$
   - Q
@@ -77,8 +77,8 @@ layers:
   - $$mdi:arrow-right-bold$$
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-right-bold$$
+  - '&mkp MB1'
+  - '&mkp MB2'
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
