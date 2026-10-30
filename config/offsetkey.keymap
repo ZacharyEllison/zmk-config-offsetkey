@@ -85,7 +85,7 @@
 &kp UP_ARROW  &mkp MB1      &mkp MB2      &kp DOWN_ARROW  &kp ENTER  &kp SPACE              &mkp LCLK  &mkp LCLK  &mkp RCLK      &none
             >;
 
-            label = "layer0";
+            label = "BASE";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -99,7 +99,7 @@
 &trans     &trans  &trans  &trans  &trans  &trans              &trans  &trans        &trans        &trans
             >;
 
-            label = "layer1";
+            label = "FN/NUM";
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
@@ -113,7 +113,7 @@
 &trans     &trans  &trans  &trans  &trans  &trans              &trans           &trans          &trans           &trans
             >;
 
-            label = "layer2";
+            label = "RGB/BT";
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
@@ -127,7 +127,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans
             >;
 
-            label = "layer3";
+            label = "SPARE";
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
     };
