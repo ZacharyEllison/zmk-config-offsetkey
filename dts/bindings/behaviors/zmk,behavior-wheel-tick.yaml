@@ -1,0 +1,5 @@
+description: Sends a single mouse wheel step per press (for encoders)
+
+compatible: "zmk,behavior-wheel-tick"
+
+include: one_param.yaml

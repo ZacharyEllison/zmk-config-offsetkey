@@ -1,0 +1,1 @@
+target_sources_ifdef(CONFIG_ZMK_BEHAVIOR_WHEEL_TICK app PRIVATE src/behavior_wheel_tick.c)

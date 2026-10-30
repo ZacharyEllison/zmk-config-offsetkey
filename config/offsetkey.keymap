@@ -34,12 +34,21 @@
 };
 
 / {
+    wheel: wheel {
+        compatible = "zmk,behavior-wheel-tick";
+        #binding-cells = <1>;
+    };
+
+    wheel_input_listener: wheel_input_listener {
+        compatible = "zmk,input-listener";
+        device = <&wheel>;
+    };
+
+    // One encoder detent = one mouse wheel click
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
         #sensor-binding-cells = <0>;
-        bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
-
-        tap-ms = <100>;
+        bindings = <&wheel 1>, <&wheel (-1)>;
     };
 
     behaviors {
